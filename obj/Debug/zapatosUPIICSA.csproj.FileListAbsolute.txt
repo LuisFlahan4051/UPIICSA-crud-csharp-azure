@@ -1,0 +1,14 @@
+C:\Users\luisf\Documents\Visual Studio 2019\projects\zapatosUPIICSA\bin\Debug\zapatosUPIICSA.exe.config
+C:\Users\luisf\Documents\Visual Studio 2019\projects\zapatosUPIICSA\bin\Debug\zapatosUPIICSA.exe
+C:\Users\luisf\Documents\Visual Studio 2019\projects\zapatosUPIICSA\bin\Debug\zapatosUPIICSA.pdb
+C:\Users\luisf\Documents\Visual Studio 2019\projects\zapatosUPIICSA\obj\Debug\zapatosUPIICSA.csprojAssemblyReference.cache
+C:\Users\luisf\Documents\Visual Studio 2019\projects\zapatosUPIICSA\obj\Debug\zapatosUPIICSA.Properties.Resources.resources
+C:\Users\luisf\Documents\Visual Studio 2019\projects\zapatosUPIICSA\obj\Debug\zapatosUPIICSA.csproj.GenerateResource.cache
+C:\Users\luisf\Documents\Visual Studio 2019\projects\zapatosUPIICSA\obj\Debug\zapatosUPIICSA.csproj.CoreCompileInputs.cache
+C:\Users\luisf\Documents\Visual Studio 2019\projects\zapatosUPIICSA\obj\Debug\zapatosUPIICSA.exe
+C:\Users\luisf\Documents\Visual Studio 2019\projects\zapatosUPIICSA\obj\Debug\zapatosUPIICSA.pdb
+C:\Users\luisf\Documents\Visual Studio 2019\projects\zapatosUPIICSA\obj\Debug\zapatosUPIICSA.loginForm.resources
+C:\Users\luisf\Documents\Visual Studio 2019\projects\zapatosUPIICSA\obj\Debug\zapatosUPIICSA.mainForm.resources
+C:\Users\luisf\Documents\Visual Studio 2019\projects\zapatosUPIICSA\obj\Debug\zapatosUPIICSA.usersForm.resources
+C:\Users\luisf\Documents\Visual Studio 2019\projects\zapatosUPIICSA\obj\Debug\zapatosUPIICSA.clientsForm.resources
+C:\Users\luisf\Documents\Visual Studio 2019\projects\zapatosUPIICSA\obj\Debug\zapatosUPIICSA.modelsForm.resources
