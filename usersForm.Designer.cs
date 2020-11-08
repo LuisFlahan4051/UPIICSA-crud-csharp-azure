@@ -46,13 +46,13 @@
             this.btnUpdate = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.btnSave = new System.Windows.Forms.Button();
-            this.btnClose = new System.Windows.Forms.Button();
             this.id_user_col = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.name_user_col = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.password_user_col = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.email_user_col = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.telephone_user_col = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnSave = new System.Windows.Forms.Button();
+            this.btnClose = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -81,7 +81,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(463, 512);
             this.panel1.TabIndex = 0;
-            this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.loginForm_MouseDown);
             // 
             // textBox4
             // 
@@ -298,6 +297,36 @@
             this.dataGridView1.Size = new System.Drawing.Size(350, 160);
             this.dataGridView1.TabIndex = 3;
             // 
+            // id_user_col
+            // 
+            this.id_user_col.HeaderText = "ID";
+            this.id_user_col.Name = "id_user_col";
+            this.id_user_col.ReadOnly = true;
+            // 
+            // name_user_col
+            // 
+            this.name_user_col.HeaderText = "Nombre";
+            this.name_user_col.Name = "name_user_col";
+            this.name_user_col.ReadOnly = true;
+            // 
+            // password_user_col
+            // 
+            this.password_user_col.HeaderText = "Contraseña";
+            this.password_user_col.Name = "password_user_col";
+            this.password_user_col.ReadOnly = true;
+            // 
+            // email_user_col
+            // 
+            this.email_user_col.HeaderText = "Email";
+            this.email_user_col.Name = "email_user_col";
+            this.email_user_col.ReadOnly = true;
+            // 
+            // telephone_user_col
+            // 
+            this.telephone_user_col.HeaderText = "Teléfono";
+            this.telephone_user_col.Name = "telephone_user_col";
+            this.telephone_user_col.ReadOnly = true;
+            // 
             // btnSave
             // 
             this.btnSave.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -331,36 +360,6 @@
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             this.btnClose.MouseLeave += new System.EventHandler(this.button1_MouseLeave);
             this.btnClose.MouseHover += new System.EventHandler(this.button1_MouseHover);
-            // 
-            // id_user_col
-            // 
-            this.id_user_col.HeaderText = "ID";
-            this.id_user_col.Name = "id_user_col";
-            this.id_user_col.ReadOnly = true;
-            // 
-            // name_user_col
-            // 
-            this.name_user_col.HeaderText = "Nombre";
-            this.name_user_col.Name = "name_user_col";
-            this.name_user_col.ReadOnly = true;
-            // 
-            // password_user_col
-            // 
-            this.password_user_col.HeaderText = "Contraseña";
-            this.password_user_col.Name = "password_user_col";
-            this.password_user_col.ReadOnly = true;
-            // 
-            // email_user_col
-            // 
-            this.email_user_col.HeaderText = "Email";
-            this.email_user_col.Name = "email_user_col";
-            this.email_user_col.ReadOnly = true;
-            // 
-            // telephone_user_col
-            // 
-            this.telephone_user_col.HeaderText = "Teléfono";
-            this.telephone_user_col.Name = "telephone_user_col";
-            this.telephone_user_col.ReadOnly = true;
             // 
             // usersForm
             // 

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="39.386" viewBox="0 0 35 39.386">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Trazado_25" data-name="Trazado 25" d="M33.484,8.714,19.016.36a3.362,3.362,0,0,0-3.031,0L1.516,8.714A3.362,3.362,0,0,0,0,11.339V28.046a3.317,3.317,0,0,0,1.516,2.625l14.469,8.354a3.362,3.362,0,0,0,3.031,0l14.469-8.354A3.254,3.254,0,0,0,35,28.046V11.339A3.435,3.435,0,0,0,33.484,8.714Z" transform="translate(0 0.001)"/>
+    </clipPath>
+  </defs>
+  <g id="C_Sharp_logo" transform="translate(0 0.001)">
+    <g id="Grupo_5" data-name="Grupo 5" transform="translate(0 -0.001)" clip-path="url(#clip-path)">
+      <rect id="Rectángulo_33" data-name="Rectángulo 33" width="20.575" height="21.039" transform="translate(17.123 9.576)" fill="#b2b2b2"/>
+      <path id="Trazado_23" data-name="Trazado 23" d="M10.088,223.952-16.391,208.63h-13.52v25.364h40Z" transform="translate(27.61 -192.581)" fill="#a5a5a5"/>
+      <path id="Trazado_24" data-name="Trazado 24" d="M-29.911,17.766l40-23.146v-9.133h-40Z" transform="translate(27.61 13.397)" fill="#dbdbdb"/>
+    </g>
+    <path id="c" d="M75.827,116.238c-.069-11.392,15.19-16.422,21.77-5.837l-5.049,2.922a5.834,5.834,0,1,0,0,5.83l5.049,2.922C91.8,132.141,76.12,128.52,75.827,116.238Z" transform="translate(-69.994 -96.545)" fill="#f5f5f5"/>
+    <g id="_" data-name="♯" transform="translate(23.732 16.385)">
+      <path id="Trazado_26" data-name="Trazado 26" d="M317.9,213h.962l-.657,6.346h-.98Z" transform="translate(-316.553 -213)" fill="#f5f5f5"/>
+      <path id="Trazado_27" data-name="Trazado 27" d="M344.675,213h.962l-.657,6.346H344Z" transform="translate(-341.269 -213)" fill="#f5f5f5"/>
+      <rect id="Rectángulo_34" data-name="Rectángulo 34" width="4.808" height="0.929" transform="translate(0.269 1.507)" fill="#f5f5f5"/>
+      <rect id="Rectángulo_35" data-name="Rectángulo 35" width="4.808" height="0.929" transform="translate(0 3.769)" fill="#f5f5f5"/>
+    </g>
+  </g>
+</svg>

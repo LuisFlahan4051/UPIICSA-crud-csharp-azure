@@ -44,12 +44,12 @@
             this.btnUpdate = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.btnSave = new System.Windows.Forms.Button();
-            this.btnClose = new System.Windows.Forms.Button();
             this.id_client_col = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.name_client_col = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.email_client_col = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.telephone_client_col = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnSave = new System.Windows.Forms.Button();
+            this.btnClose = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -75,7 +75,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(463, 512);
             this.panel1.TabIndex = 0;
-            this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.loginForm_MouseDown);
             // 
             // textBox4
             // 
@@ -265,6 +264,30 @@
             this.dataGridView1.Size = new System.Drawing.Size(350, 160);
             this.dataGridView1.TabIndex = 21;
             // 
+            // id_client_col
+            // 
+            this.id_client_col.HeaderText = "ID";
+            this.id_client_col.Name = "id_client_col";
+            this.id_client_col.ReadOnly = true;
+            // 
+            // name_client_col
+            // 
+            this.name_client_col.HeaderText = "Nombre";
+            this.name_client_col.Name = "name_client_col";
+            this.name_client_col.ReadOnly = true;
+            // 
+            // email_client_col
+            // 
+            this.email_client_col.HeaderText = "Email";
+            this.email_client_col.Name = "email_client_col";
+            this.email_client_col.ReadOnly = true;
+            // 
+            // telephone_client_col
+            // 
+            this.telephone_client_col.HeaderText = "Teléfono";
+            this.telephone_client_col.Name = "telephone_client_col";
+            this.telephone_client_col.ReadOnly = true;
+            // 
             // btnSave
             // 
             this.btnSave.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -296,30 +319,6 @@
             this.btnClose.TabIndex = 19;
             this.btnClose.UseVisualStyleBackColor = false;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
-            // 
-            // id_client_col
-            // 
-            this.id_client_col.HeaderText = "ID";
-            this.id_client_col.Name = "id_client_col";
-            this.id_client_col.ReadOnly = true;
-            // 
-            // name_client_col
-            // 
-            this.name_client_col.HeaderText = "Nombre";
-            this.name_client_col.Name = "name_client_col";
-            this.name_client_col.ReadOnly = true;
-            // 
-            // email_client_col
-            // 
-            this.email_client_col.HeaderText = "Email";
-            this.email_client_col.Name = "email_client_col";
-            this.email_client_col.ReadOnly = true;
-            // 
-            // telephone_client_col
-            // 
-            this.telephone_client_col.HeaderText = "Teléfono";
-            this.telephone_client_col.Name = "telephone_client_col";
-            this.telephone_client_col.ReadOnly = true;
             // 
             // clientsForm
             // 

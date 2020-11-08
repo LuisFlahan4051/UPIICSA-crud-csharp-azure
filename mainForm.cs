@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Diagnostics;
 using System.Runtime.InteropServices; //Movimiento del form sin bordes.
 
 namespace zapatosUPIICSA
@@ -107,5 +108,32 @@ namespace zapatosUPIICSA
         {
             openChildForm(new modelsForm());
         }
+
+        #region Autores
+        private void pictureBox8_Click(object sender, EventArgs e)
+        {
+            Process.Start("https://github.com/LuisFlahan4051/zapatosUPIICSA");
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            Process.Start("https://github.com/LuisFlahan4051");
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            Process.Start("https://github.com/Brian-54");
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+            Process.Start("https://github.com");
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+            Process.Start("https://github.com");
+        }
+        #endregion
     }
 }
