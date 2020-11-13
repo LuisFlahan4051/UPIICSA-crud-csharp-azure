@@ -285,9 +285,9 @@
             this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(112)))), ((int)(((byte)(112)))));
             this.label9.Location = new System.Drawing.Point(61, 483);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(256, 23);
+            this.label9.Size = new System.Drawing.Size(265, 23);
             this.label9.TabIndex = 9;
-            this.label9.Text = "Profesora Nombre Completo";
+            this.label9.Text = "Miranda Chavez Edna Martha.";
             // 
             // label8
             // 
@@ -321,9 +321,9 @@
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(112)))), ((int)(((byte)(112)))));
             this.label6.Location = new System.Drawing.Point(61, 397);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(61, 23);
+            this.label6.Size = new System.Drawing.Size(253, 23);
             this.label6.TabIndex = 6;
-            this.label6.Text = "Yael ...";
+            this.label6.Text = "Sánchez Santes Luis Manuel.";
             this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // label5
@@ -334,9 +334,9 @@
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(112)))), ((int)(((byte)(112)))));
             this.label5.Location = new System.Drawing.Point(61, 374);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(63, 23);
+            this.label5.Size = new System.Drawing.Size(289, 23);
             this.label5.TabIndex = 5;
-            this.label5.Text = "Luis ...";
+            this.label5.Text = "Rebollar González Abraham Yael.";
             this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // label4
@@ -347,9 +347,9 @@
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(112)))), ((int)(((byte)(112)))));
             this.label4.Location = new System.Drawing.Point(61, 351);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(73, 23);
+            this.label4.Size = new System.Drawing.Size(175, 23);
             this.label4.TabIndex = 4;
-            this.label4.Text = "Brian ...";
+            this.label4.Text = "Murillo Salas Brian.";
             this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label3
