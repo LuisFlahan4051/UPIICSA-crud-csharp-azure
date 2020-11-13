@@ -9,10 +9,10 @@ namespace zapatosUPIICSA
         public SqlConnection getConnection()
         {
             //BD in Azure.
-            //string connectionString = "Server=tcp:servidor-proyectos-upiicsa.database.windows.net,1433;Initial Catalog=zapatosUPIICSA-dbazure;Persist Security Info=False;User ID=administrador;Password=404080loisSQLServer;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+            string connectionString = "Server=tcp:servidor-proyectos-upiicsa.database.windows.net,1433;Initial Catalog=zapatosUPIICSA-dbazure;Persist Security Info=False;User ID=administrador;Password=404080loisSQLServer;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
             
             //BD for testing.
-            string connectionString = "data source = (localdb)\\MSSQLLocalDB; initial catalog = zapatosUPIICSA; user id = root; password = root";            
+            //string connectionString = "data source = (localdb)\\MSSQLLocalDB; initial catalog = zapatosUPIICSA; user id = root; password = root";            
             
             SqlConnection connection;
 

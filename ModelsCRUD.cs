@@ -1,15 +1,16 @@
 ﻿using System.Data.SqlClient;
 using System.Windows.Forms;
 
+
 namespace zapatosUPIICSA
 {
-    class UsersCRUD
+    class ModelsCRUD
     {
         Connect newConnection = new Connect();
 
-        
 
-        public bool saveUser(string name, string password, string email, string phone)
+
+        public bool saveModel(string model, string size, string type, string color)
         {
             SqlConnection connection = newConnection.getConnection();
             SqlCommand statement;
@@ -18,12 +19,12 @@ namespace zapatosUPIICSA
             {
                 connection.Open();
 
-                statement = new SqlCommand("INSERT INTO users (name_user, password_user, email_user, phone_user) VALUES" +
-                    "(@name, @password, @email, @phone)", connection);
-                statement.Parameters.AddWithValue("@name", name);
-                statement.Parameters.AddWithValue("@password", password);
-                statement.Parameters.AddWithValue("@email", email);
-                statement.Parameters.AddWithValue("@phone", phone);
+                statement = new SqlCommand("INSERT INTO models (model_model, size_model, type_model, color_model) VALUES" +
+                    "(@model, @size, @type, @color)", connection);
+                statement.Parameters.AddWithValue("@model", model);
+                statement.Parameters.AddWithValue("@size", size);
+                statement.Parameters.AddWithValue("@type", type);
+                statement.Parameters.AddWithValue("@color", color);
                 statement.ExecuteNonQuery();
                 connection.Close();
                 MessageBox.Show("¡Se ha guardado correctamente!", "Correcto", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -37,7 +38,7 @@ namespace zapatosUPIICSA
             }
         }
 
-        public bool deleteUserById(string id)
+        public bool deleteModelById(string id)
         {
             SqlConnection connection = newConnection.getConnection();
             SqlCommand statement;
@@ -46,7 +47,7 @@ namespace zapatosUPIICSA
             {
                 connection.Open();
 
-                statement = new SqlCommand("DELETE FROM users WHERE id_user = @id" , connection);
+                statement = new SqlCommand("DELETE FROM models WHERE id_model = @id", connection);
                 statement.Parameters.AddWithValue("@id", id);
                 statement.ExecuteNonQuery();
                 connection.Close();
@@ -61,7 +62,7 @@ namespace zapatosUPIICSA
             }
         }
 
-        public bool updateUser(string id, string name, string password, string email, string phone)
+        public bool updateModel(string id, string model, string size, string type, string color)
         {
             SqlConnection connection = newConnection.getConnection();
             SqlCommand statement;
@@ -70,11 +71,11 @@ namespace zapatosUPIICSA
             {
                 connection.Open();
 
-                statement = new SqlCommand("UPDATE users SET name_user = @name, password_user = @password, email_user = @email, phone_user = @phone WHERE id_user = @id", connection);
-                statement.Parameters.AddWithValue("@name", name);
-                statement.Parameters.AddWithValue("@password", password);
-                statement.Parameters.AddWithValue("@email", email);
-                statement.Parameters.AddWithValue("@phone", phone);
+                statement = new SqlCommand("UPDATE models SET model_model = @model, size_model = @size, type_model = @type, color_model = @color WHERE id_model = @id", connection);
+                statement.Parameters.AddWithValue("@model", model);
+                statement.Parameters.AddWithValue("@size", size);
+                statement.Parameters.AddWithValue("@type", type);
+                statement.Parameters.AddWithValue("@color", color);
                 statement.Parameters.AddWithValue("id", id);
                 statement.ExecuteNonQuery();
                 connection.Close();
@@ -88,6 +89,5 @@ namespace zapatosUPIICSA
                 return false;
             }
         }
-
     }
 }
