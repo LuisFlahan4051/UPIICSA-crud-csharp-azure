@@ -86,7 +86,7 @@ namespace zapatosUPIICSA
 
         private void btnClose_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Close();
         }
         #endregion
 
@@ -98,9 +98,15 @@ namespace zapatosUPIICSA
             string email = txtEmail.Text;
             string phone = txtPhone.Text;
             
-            usersCRUD.saveUser(name, password, email, phone);
-            clearInputs();
-            drawTable();
+            if ((!"".Equals(name) && !"".Equals(password)) || (!"".Equals(email) && !"".Equals(password)) || (!"".Equals(phone) && !"".Equals(password)))
+            {
+                usersCRUD.saveUser(name, password, email, phone);
+                clearInputs();
+                drawTable();}
+            else
+            {
+                MessageBox.Show("¡Tiene que poner al menos un campo y una contraseña!", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
         }
 
         private void btnDelete_Click(object sender, EventArgs e)
@@ -131,8 +137,15 @@ namespace zapatosUPIICSA
                 string password = txtPassword.Text;
                 string email = txtEmail.Text;
                 string phone = txtPhone.Text;
-                usersCRUD.updateUser(id, name, password, email, phone);
-                clearInputs();
+                if ((!"".Equals(name) && !"".Equals(password)) || (!"".Equals(email) && !"".Equals(password)) || (!"".Equals(phone) && !"".Equals(password)))
+                { 
+                    usersCRUD.updateUser(id, name, password, email, phone);
+                    clearInputs();
+                }
+                else
+                {
+                    MessageBox.Show("¡Tiene que poner al menos un campo y una contraseña!", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                }
             }
             drawTable();
         }

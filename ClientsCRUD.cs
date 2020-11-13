@@ -1,15 +1,16 @@
 ﻿using System.Data.SqlClient;
 using System.Windows.Forms;
 
+
 namespace zapatosUPIICSA
 {
-    class UsersCRUD
+    class ClientsCRUD
     {
         Connect newConnection = new Connect();
 
-        
 
-        public bool saveUser(string name, string password, string email, string phone)
+
+        public bool saveClient(string name, string email, string phone)
         {
             SqlConnection connection = newConnection.getConnection();
             SqlCommand statement;
@@ -18,10 +19,9 @@ namespace zapatosUPIICSA
             {
                 connection.Open();
 
-                statement = new SqlCommand("INSERT INTO users (name_user, password_user, email_user, phone_user) VALUES" +
-                    "(@name, @password, @email, @phone)", connection);
+                statement = new SqlCommand("INSERT INTO clients (name_client, email_client, phone_client) VALUES" +
+                    "(@name, @email, @phone)", connection);
                 statement.Parameters.AddWithValue("@name", name);
-                statement.Parameters.AddWithValue("@password", password);
                 statement.Parameters.AddWithValue("@email", email);
                 statement.Parameters.AddWithValue("@phone", phone);
                 statement.ExecuteNonQuery();
@@ -37,7 +37,7 @@ namespace zapatosUPIICSA
             }
         }
 
-        public bool deleteUserById(string id)
+        public bool deleteClientById(string id)
         {
             SqlConnection connection = newConnection.getConnection();
             SqlCommand statement;
@@ -46,7 +46,7 @@ namespace zapatosUPIICSA
             {
                 connection.Open();
 
-                statement = new SqlCommand("DELETE FROM users WHERE id_user = @id" , connection);
+                statement = new SqlCommand("DELETE FROM clients WHERE id_client = @id", connection);
                 statement.Parameters.AddWithValue("@id", id);
                 statement.ExecuteNonQuery();
                 connection.Close();
@@ -61,7 +61,7 @@ namespace zapatosUPIICSA
             }
         }
 
-        public bool updateUser(string id, string name, string password, string email, string phone)
+        public bool updateClient(string id, string name, string email, string phone)
         {
             SqlConnection connection = newConnection.getConnection();
             SqlCommand statement;
@@ -70,9 +70,8 @@ namespace zapatosUPIICSA
             {
                 connection.Open();
 
-                statement = new SqlCommand("UPDATE users SET name_user = @name, password_user = @password, email_user = @email, phone_user = @phone WHERE id_user = @id", connection);
-                statement.Parameters.AddWithValue("@name", name);
-                statement.Parameters.AddWithValue("@password", password);
+                statement = new SqlCommand("UPDATE clients SET name_client = @name, email_client = @email, phone_client = @phone WHERE id_client = @id", connection);
+                statement.Parameters.AddWithValue("@name", @name);
                 statement.Parameters.AddWithValue("@email", email);
                 statement.Parameters.AddWithValue("@phone", phone);
                 statement.Parameters.AddWithValue("id", id);
@@ -88,6 +87,5 @@ namespace zapatosUPIICSA
                 return false;
             }
         }
-
     }
 }
