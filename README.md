@@ -30,7 +30,7 @@ SQLServer
 
 ### Instalación 🔧
 
-Instalador MSI:
+Instalador: https://drive.google.com/file/d/1yAjCHoTJyjpGuD20omg0fThunN7u82RL/view?usp=sharing
 
 ## Autores ✒️
 Secuencia: **2CM41**
