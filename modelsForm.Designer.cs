@@ -32,17 +32,17 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txtId = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtColor = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtType = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtSize = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.txtUser = new System.Windows.Forms.TextBox();
+            this.txtModel = new System.Windows.Forms.TextBox();
             this.titleLogin = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnFilter = new System.Windows.Forms.Button();
             this.btnUpdate = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
@@ -59,17 +59,17 @@
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.textBox4);
+            this.panel1.Controls.Add(this.txtId);
             this.panel1.Controls.Add(this.label4);
-            this.panel1.Controls.Add(this.textBox3);
+            this.panel1.Controls.Add(this.txtColor);
             this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.textBox2);
+            this.panel1.Controls.Add(this.txtType);
             this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.textBox1);
+            this.panel1.Controls.Add(this.txtSize);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.txtUser);
+            this.panel1.Controls.Add(this.txtModel);
             this.panel1.Controls.Add(this.titleLogin);
-            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.btnFilter);
             this.panel1.Controls.Add(this.btnUpdate);
             this.panel1.Controls.Add(this.btnDelete);
             this.panel1.Controls.Add(this.dataGridView1);
@@ -81,17 +81,17 @@
             this.panel1.Size = new System.Drawing.Size(463, 512);
             this.panel1.TabIndex = 0;
             // 
-            // textBox4
+            // txtId
             // 
-            this.textBox4.BackColor = System.Drawing.Color.White;
-            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox4.Font = new System.Drawing.Font("Cambria", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.textBox4.Location = new System.Drawing.Point(12, 331);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.textBox4.Size = new System.Drawing.Size(36, 31);
-            this.textBox4.TabIndex = 34;
+            this.txtId.BackColor = System.Drawing.Color.White;
+            this.txtId.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtId.Font = new System.Drawing.Font("Cambria", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtId.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txtId.Location = new System.Drawing.Point(12, 331);
+            this.txtId.Name = "txtId";
+            this.txtId.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.txtId.Size = new System.Drawing.Size(36, 31);
+            this.txtId.TabIndex = 34;
             // 
             // label4
             // 
@@ -105,19 +105,19 @@
             this.label4.TabIndex = 33;
             this.label4.Text = "Color:";
             // 
-            // textBox3
+            // txtColor
             // 
-            this.textBox3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.txtColor.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox3.BackColor = System.Drawing.Color.White;
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox3.Font = new System.Drawing.Font("Cambria", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.textBox3.Location = new System.Drawing.Point(54, 269);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.textBox3.Size = new System.Drawing.Size(248, 31);
-            this.textBox3.TabIndex = 32;
+            this.txtColor.BackColor = System.Drawing.Color.White;
+            this.txtColor.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtColor.Font = new System.Drawing.Font("Cambria", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtColor.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txtColor.Location = new System.Drawing.Point(54, 269);
+            this.txtColor.Name = "txtColor";
+            this.txtColor.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.txtColor.Size = new System.Drawing.Size(248, 31);
+            this.txtColor.TabIndex = 32;
             // 
             // label3
             // 
@@ -131,19 +131,19 @@
             this.label3.TabIndex = 31;
             this.label3.Text = "Tipo:";
             // 
-            // textBox2
+            // txtType
             // 
-            this.textBox2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.txtType.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox2.BackColor = System.Drawing.Color.White;
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox2.Font = new System.Drawing.Font("Cambria", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.textBox2.Location = new System.Drawing.Point(54, 207);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.textBox2.Size = new System.Drawing.Size(248, 31);
-            this.textBox2.TabIndex = 30;
+            this.txtType.BackColor = System.Drawing.Color.White;
+            this.txtType.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtType.Font = new System.Drawing.Font("Cambria", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtType.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txtType.Location = new System.Drawing.Point(54, 207);
+            this.txtType.Name = "txtType";
+            this.txtType.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.txtType.Size = new System.Drawing.Size(248, 31);
+            this.txtType.TabIndex = 30;
             // 
             // label2
             // 
@@ -157,19 +157,19 @@
             this.label2.TabIndex = 29;
             this.label2.Text = "Talla:";
             // 
-            // textBox1
+            // txtSize
             // 
-            this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.txtSize.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox1.BackColor = System.Drawing.Color.White;
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox1.Font = new System.Drawing.Font("Cambria", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.textBox1.Location = new System.Drawing.Point(54, 147);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.textBox1.Size = new System.Drawing.Size(248, 31);
-            this.textBox1.TabIndex = 28;
+            this.txtSize.BackColor = System.Drawing.Color.White;
+            this.txtSize.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtSize.Font = new System.Drawing.Font("Cambria", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSize.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txtSize.Location = new System.Drawing.Point(54, 147);
+            this.txtSize.Name = "txtSize";
+            this.txtSize.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.txtSize.Size = new System.Drawing.Size(248, 31);
+            this.txtSize.TabIndex = 28;
             // 
             // label1
             // 
@@ -183,19 +183,19 @@
             this.label1.TabIndex = 27;
             this.label1.Text = "Modelo:";
             // 
-            // txtUser
+            // txtModel
             // 
-            this.txtUser.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.txtModel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtUser.BackColor = System.Drawing.Color.White;
-            this.txtUser.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtUser.Font = new System.Drawing.Font("Cambria", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUser.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.txtUser.Location = new System.Drawing.Point(54, 87);
-            this.txtUser.Name = "txtUser";
-            this.txtUser.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.txtUser.Size = new System.Drawing.Size(248, 31);
-            this.txtUser.TabIndex = 26;
+            this.txtModel.BackColor = System.Drawing.Color.White;
+            this.txtModel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtModel.Font = new System.Drawing.Font("Cambria", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtModel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txtModel.Location = new System.Drawing.Point(54, 87);
+            this.txtModel.Name = "txtModel";
+            this.txtModel.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.txtModel.Size = new System.Drawing.Size(248, 31);
+            this.txtModel.TabIndex = 26;
             // 
             // titleLogin
             // 
@@ -212,20 +212,21 @@
             this.titleLogin.Text = "MODELOS";
             this.titleLogin.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // button1
+            // btnFilter
             // 
-            this.button1.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(219)))), ((int)(((byte)(219)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(12, 368);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(36, 36);
-            this.button1.TabIndex = 24;
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnFilter.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.btnFilter.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnFilter.BackgroundImage")));
+            this.btnFilter.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btnFilter.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnFilter.FlatAppearance.BorderSize = 0;
+            this.btnFilter.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(219)))), ((int)(((byte)(219)))));
+            this.btnFilter.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnFilter.Location = new System.Drawing.Point(12, 368);
+            this.btnFilter.Name = "btnFilter";
+            this.btnFilter.Size = new System.Drawing.Size(36, 36);
+            this.btnFilter.TabIndex = 24;
+            this.btnFilter.UseVisualStyleBackColor = false;
+            this.btnFilter.Click += new System.EventHandler(this.btnFilter_Click);
             // 
             // btnUpdate
             // 
@@ -242,6 +243,7 @@
             this.btnUpdate.Size = new System.Drawing.Size(60, 60);
             this.btnUpdate.TabIndex = 23;
             this.btnUpdate.UseVisualStyleBackColor = false;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnDelete
             // 
@@ -258,6 +260,7 @@
             this.btnDelete.Size = new System.Drawing.Size(60, 60);
             this.btnDelete.TabIndex = 22;
             this.btnDelete.UseVisualStyleBackColor = false;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // dataGridView1
             // 
@@ -295,6 +298,7 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(350, 160);
             this.dataGridView1.TabIndex = 21;
+            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 
             // id_model_col
             // 
@@ -341,6 +345,7 @@
             this.btnSave.Size = new System.Drawing.Size(60, 60);
             this.btnSave.TabIndex = 20;
             this.btnSave.UseVisualStyleBackColor = false;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // btnClose
             // 
@@ -357,6 +362,8 @@
             this.btnClose.TabIndex = 19;
             this.btnClose.UseVisualStyleBackColor = false;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
+            this.btnClose.MouseLeave += new System.EventHandler(this.button1_MouseLeave);
+            this.btnClose.MouseHover += new System.EventHandler(this.button1_MouseHover);
             // 
             // modelsForm
             // 
@@ -378,17 +385,17 @@
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txtId;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtColor;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtType;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtSize;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txtUser;
+        private System.Windows.Forms.TextBox txtModel;
         private System.Windows.Forms.Label titleLogin;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnFilter;
         private System.Windows.Forms.Button btnUpdate;
         private System.Windows.Forms.Button btnDelete;
         private System.Windows.Forms.DataGridView dataGridView1;

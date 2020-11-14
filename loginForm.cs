@@ -1,14 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices; //Movimiento del form sin bordes.
-using System.Net.NetworkInformation;
 
 namespace zapatosUPIICSA
 {
@@ -33,15 +26,56 @@ namespace zapatosUPIICSA
         }
         #endregion
 
-        private void button1_Click(object sender, EventArgs e)
+        MainUserCapsule userCapsule = new MainUserCapsule();
+        Authentication newAuthentication = new Authentication();
+
+        public void validate()
         {
-            this.Hide();
-            mainForm mainForm = new mainForm();
-            mainForm.Show();
+            string user = txtUser.Text;
+            string password = txtPassword.Text;
+
+            if (!"".Equals(user) && !"".Equals(password))
+            {
+                userCapsule = newAuthentication.authentication(user, password);
+                if (userCapsule == null)
+                {
+                    var msjResult = MessageBox.Show("Error al obtener el usuaior, es nulo.", "Error interno", MessageBoxButtons.OK , MessageBoxIcon.Error);
+                    if (msjResult == DialogResult.OK)
+                    {
+                        Application.Exit();
+                    }
+                }
+
+                if (userCapsule.Email_user != null && userCapsule.Password_user != null)
+                {
+                    this.Hide();
+                    mainForm mainForm = new mainForm();
+                    mainForm.Show();
+                }
+                else
+                {
+                    MessageBox.Show("¡Los datos proporcionados no coinciden en nuestro registro!", "Fallo de autenticación", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                    txtUser.Text = "";
+                    txtPassword.Text = "";
+                }
+            }
+            else
+            {
+                MessageBox.Show("¡Rellene todos los campos!", "Campos vacíos", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+
 
         }
 
-        private void button2_Click(object sender, EventArgs e)
+
+
+
+        private void btnEnter_Click(object sender, EventArgs e)
+        {
+            validate();
+        }
+
+        private void btnCancel_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
